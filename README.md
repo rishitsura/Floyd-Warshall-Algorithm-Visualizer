@@ -34,9 +34,11 @@ Before you begin, ensure you have met the following requirements:
 
 2. Enter the graph matrix in the provided text box. Use `inf` for unreachable nodes. Example:
     ```
-    0 3 inf
-    2 0 inf
-    inf 7 0
+    0 4 inf 5 inf
+    inf 0 1 inf 6
+    2 inf 0 3 inf
+    inf inf 1 0 2
+    1 inf inf 4 0
     ```
 
 3. Click on the "Visualize Floyd-Warshall Algorithm" button to start the visualization.
@@ -48,14 +50,17 @@ Below is an example of how the interface looks and functions:
 1. Enter your graph matrix:
 
     ```
-    0 3 inf
-    2 0 inf
-    inf 7 0
+    0 4 inf 5 inf
+    inf 0 1 inf 6
+    2 inf 0 3 inf
+    inf inf 1 0 2
+    1 inf inf 4 0
     ```
 
 2. Click the "Visualize Floyd-Warshall Algorithm" button to see the visualization.
 
-![image](https://github.com/user-attachments/assets/8c75e495-5436-49a1-95ac-47eaef435ade)
+![image](https://github.com/user-attachments/assets/ece3e5b9-41d9-452e-baf1-f2f0708bdd05)
+
 
 
 ## License
